@@ -1,8 +1,8 @@
 # ShapeInversion
 ## Paper
 Junzhe Zhang, Xinyi Chen, Zhongang Cai, Liang Pan, Haiyu Zhao, Shuai Yi, Chai Kiat Yeo, Bo Dai, Chen Change Loy "Unsupervised 3D Shape Completion through GAN Inversion" CVPR 2021
-* project page: [link](https://junzhezhang.github.io/projects/ShapeInversion/)
-* paper: to be announced soon!
+* Project page: [link](https://junzhezhang.github.io/projects/ShapeInversion/)
+* Paper: [link](https://arxiv.org/abs/2104.13366)
 
 
 ## Results
@@ -49,7 +49,7 @@ python eval_completion.py \
 --saved_results_path <your_results_on_KITTI>
 ```
 ### Giving multiple valid outputs
-ShapeInversionis able to provide multiple valid complete shapes, especially when extreme incompleteness that causes ambiguity.
+ShapeInversion is able to provide multiple valid complete shapes, especially when extreme incompleteness that causes ambiguity.
 ```
 python trainer.py \
 --dataset CRN \
@@ -95,7 +95,7 @@ python pretrain_treegan.py \
 ```
 
 NOTE:
-- The inversion stage supports distributed training based by simply adding `--dist`.
+- The inversion stage supports distributed training by simply adding `--dist`. It is tested on [slurm](https://slurm.schedmd.com/) as well.
 - The hyperparameters provided may not be optimal, feel free to tune them.
 - Smaller batch size for pretraining is totally fine.
 
