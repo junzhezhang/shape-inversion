@@ -107,9 +107,9 @@ The code is in part built on [tree-GAN]() and [DGP](https://github.com/XingangPa
 ## Citation
 
 ```  
-@inproceedings{pan2020dgp,
-  author = {Zhang, Junzhe and Chen, Xinyi and Cai, Zhongang and Pan, Liang and Zhao, Haiyu and Yi, Shuai and Yeo, Chai Kiat and Dai, Bo and Loy, Chen Change},
-  title = {Unsupervised 3D Shape Completion through GAN Inversion},
-  booktitle = {CVPR},
-  year = {2021}
-}
+@inproceedings{zhang2021unsupervised,
+    title = {Unsupervised 3D Shape Completion through GAN Inversion},
+    author = {Zhang, Junzhe and Chen, Xinyi and Cai, Zhongang and Pan, Liang and Zhao, Haiyu 
+    and Yi, Shuai and Yeo, Chai Kiat and Dai, Bo and Loy, Chen Change},
+    booktitle = {CVPR},
+    year = {2021}}
